@@ -1,5 +1,3 @@
-# word_counter
-
 Run tests
 ---------
 
