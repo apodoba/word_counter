@@ -87,7 +87,7 @@ public class WordFrequencyServletTest extends TestCase{
 		String jsonResponse = stringWriter.getBuffer().toString().trim();
 		stringWriter.close();
 		
-		LOGGER.info("GET first call, word = 'test': " + jsonResponse);
+		LOGGER.info("GET first call, word = 'and': " + jsonResponse);
 		
 		assertEquals(150504, getFileFrequency(jsonResponse));
 		assertEquals(0, getCallFrequency(jsonResponse));
@@ -102,7 +102,7 @@ public class WordFrequencyServletTest extends TestCase{
 		jsonResponse = stringWriter.getBuffer().toString().trim();
 		stringWriter.close();
 		
-		LOGGER.info("GET second call, word = 'test': " + jsonResponse);
+		LOGGER.info("GET second call, word = 'and': " + jsonResponse);
 		
 		assertEquals(150504, getFileFrequency(jsonResponse));
 		assertEquals(1, getCallFrequency(jsonResponse));
