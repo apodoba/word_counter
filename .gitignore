@@ -1,0 +1,17 @@
+# Maven
+target/
+
+# Package Files #
+*.jar
+
+# java class files (in case they sneak in)
+*.class
+
+# Eclipse
+.settings/
+.metadata/
+.project
+.classpath
+classes/
+bin/
+test-output/
