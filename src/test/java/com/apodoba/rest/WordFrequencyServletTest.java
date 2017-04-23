@@ -14,14 +14,13 @@ import org.mockito.Mock;
 import org.mockito.Mockito;
 import org.mockito.MockitoAnnotations;
 
-import com.apodoba.service.WordFileFrequencyService;
 import com.apodoba.utils.Utils;
 
 import junit.framework.TestCase;
 
 public class WordFrequencyServletTest extends TestCase{
 	
-	private static final Logger LOGGER = Logger.getLogger(WordFileFrequencyService.class);
+	private static final Logger LOGGER = Logger.getLogger(WordFrequencyServletTest.class);
 
 	@Mock
 	private HttpServletRequest request;
