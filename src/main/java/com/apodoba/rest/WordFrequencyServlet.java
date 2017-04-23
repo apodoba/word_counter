@@ -1,4 +1,4 @@
-package com.slice.rest;
+package com.apodoba.rest;
 
 import java.io.IOException;
 
@@ -10,9 +10,9 @@ import javax.servlet.http.HttpServletResponse;
 
 import org.apache.commons.lang3.StringUtils;
 
-import com.slice.service.WordCallFrequencyService;
-import com.slice.service.WordFileFrequencyService;
-import com.slice.utils.Utils;
+import com.apodoba.service.WordCallFrequencyService;
+import com.apodoba.service.WordFileFrequencyService;
+import com.apodoba.utils.Utils;
 
 @WebServlet(urlPatterns = "/*")
 public class WordFrequencyServlet extends HttpServlet {

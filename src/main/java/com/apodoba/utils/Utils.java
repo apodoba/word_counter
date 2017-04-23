@@ -1,4 +1,4 @@
-package com.slice.utils;
+package com.apodoba.utils;
 
 import java.io.IOException;
 

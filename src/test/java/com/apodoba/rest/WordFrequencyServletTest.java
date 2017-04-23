@@ -1,4 +1,4 @@
-package com.slice.rest;
+package com.apodoba.rest;
 
 import java.io.PrintWriter;
 import java.io.StringWriter;
@@ -14,8 +14,8 @@ import org.mockito.Mock;
 import org.mockito.Mockito;
 import org.mockito.MockitoAnnotations;
 
-import com.slice.service.WordFileFrequencyService;
-import com.slice.utils.Utils;
+import com.apodoba.service.WordFileFrequencyService;
+import com.apodoba.utils.Utils;
 
 import junit.framework.TestCase;
 

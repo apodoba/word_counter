@@ -1,9 +1,9 @@
-package com.slice.service;
+package com.apodoba.service;
 
 import java.util.HashMap;
 import java.util.Map;
 
-import com.slice.utils.Utils;
+import com.apodoba.utils.Utils;
 
 /**
  * This class stores information about how many times word was called

@@ -1,4 +1,4 @@
-package com.slice.service;
+package com.apodoba.service;
 
 import java.io.IOException;
 import java.net.URISyntaxException;
@@ -11,7 +11,7 @@ import java.util.Map;
 
 import org.apache.log4j.Logger;
 
-import com.slice.utils.Utils;
+import com.apodoba.utils.Utils;
 
 /**
  * This class read resource files, calculate and store words frequency in all files
